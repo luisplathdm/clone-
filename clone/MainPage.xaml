@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="clone.MainPage"
               Shell.NavBarIsVisible="false"
-              BackgroundColor="">
+              BackgroundColor="#0c0d0c"/>
 
        <Grid>
             
@@ -12,8 +12,11 @@
              Opacity=" .6"/>
 
            <Label 
+           FontFamily="GalleroVintage-DemoVersion-Regular"
            Text="pei-dei"
            TextColor="White"
+           FontSize="12"
+           HorizontalOptions="Center"
            HorizontalTextAlignment="Center"/>
 
         
