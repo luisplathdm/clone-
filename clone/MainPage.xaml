@@ -3,23 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="clone.MainPage"
               Shell.NavBarIsVisible="false"
-              BackgroundColor="#0c0d0c"/>
+              BackgroundColor="#0c0d0c">
 
-       <Grid>
-            
-           <Image Source="mascara.jpg"
-            Aspect="AspectFill"
-             Opacity=" .6"/>
+      <Grid>           
+         <Image 
+            Source="capa.jpg"
+           Aspect="AspectFill"
+           Opacity="0"/>
 
-           <Label 
-           FontFamily="GalleroVintage-DemoVersion-Regular"
-           Text="pei-dei"
-           TextColor="White"
-           FontSize="12"
-           HorizontalOptions="Center"
-           HorizontalTextAlignment="Center"/>
+         <Label 
+            FontFamily="GalleroVintage-DemoVersion-Regular"
+            Text="pei-dei"
+            TextColor="White"
+            FontSize="45"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"/>
+        <Button 
+            Text="Jogar"
+            Clicked="QuandoClicar"
+            BackgroundColor="#b56a24"
+            HorizontalOptions="Fill"/>
 
-        
-    
-       </Grid>
+     </Grid>
 </ContentPage>

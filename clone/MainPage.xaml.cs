@@ -9,4 +9,7 @@ public partial class MainPage : ContentPage
 	}
 
 }
-
+    void QuandoClicar (object sender, EventArgs args)
+{
+	
+}
