@@ -17,12 +17,27 @@
             TextColor="White"
             FontSize="45"
             HorizontalOptions="Center"
-            HorizontalTextAlignment="Center"/>
-        <Button 
-            Text="Jogar"
-            Clicked="QuandoClicar"
-            BackgroundColor="#b56a24"
-            HorizontalOptions="Fill"/>
+            HorizontalTextAlignment="Center"
+            />
 
+        <Button x:Name="Jogar" 
+            Text="Jogar"
+            Clicked="QuandoClicarJogar"
+            BackgroundColor="#b56a24"
+            HorizontalOptions="Fill"
+            Margin="10, 0, 10, 100"
+            VerticalOptions="End" 
+            />
+ 
+       <Button x:Name="Informações" 
+            Text="Informações"
+            FontSiz="18"
+            Clicked="QuandoClicarInf"
+            BackgroundColor="#b56a24"
+            HorizontalOptions="Fill"
+            Margin="10, 0, 10, 100"
+            VerticalOptions="End" 
+            />
+ 
      </Grid>
 </ContentPage>

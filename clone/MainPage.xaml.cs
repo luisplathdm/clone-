@@ -8,8 +8,14 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-}
-    void QuandoClicar (object sender, EventArgs args)
+
+   private void QuandoClicarJogar(object sender, EventArgs args)
 {
-	
+	Application.Current.MainPage = new SegundaPage();
+}
+   private void QuandoClicarInf(object sender, EventArgs args)
+{
+
+}
+
 }
