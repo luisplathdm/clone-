@@ -15,7 +15,10 @@ public partial class MainPage : ContentPage
 }
    private void QuandoClicarInf(object sender, EventArgs args)
 {
+ 
+}
+    private void QuandoClicarSobre(object sender, EventArgs args)
+{
 
 }
-
 }
