@@ -13,12 +13,18 @@ public partial class MainPage : ContentPage
 {
 	Application.Current.MainPage = new SegundaPage();
 }
-   private void QuandoClicarInf(object sender, EventArgs args)
-{
- 
-}
-    private void QuandoClicarSobre(object sender, EventArgs args)
+  
+    private void QuandoClicarInf(object sender, EventArgs args)
 {
 
 }
+    private void QuandoClicarFrameSobre(object sender, EventArgs args)
+			{
+			FrameSobre.IsVisible = true;
+			}
+
+	private void ButtonVoltar(object sender, EventArgs args)
+  	 	    {
+		    FrameSobre.IsVisible = false;
+	 	    }
 }

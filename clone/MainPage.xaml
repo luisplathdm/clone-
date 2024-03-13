@@ -12,7 +12,7 @@
             Opacity="1"
            />
 
-         <Label 
+        <Label 
             FontFamily="GalleroVintage-DemoVersion-Regular"
             Text="pei-dei"
             TextColor="White"
@@ -20,38 +20,85 @@
             HorizontalOptions="Center"
             HorizontalTextAlignment="Center"
             />
-
-  <Button x:Name="Jogar" 
-            Text="Jogar"
+       
+       <Button x:Name="Informações"
+            FontFamily="GalleroVintage-DemoVersion-Regular" 
+            Text="Informações"
             FontSize="18"
-            Clicked="QuandoClicarJogar"
+            Clicked="QuandoClicarFrameSobre"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
             Margin="10, 0, 10, 100"
             VerticalOptions="End" 
+            CornerRadius="30"
+            BorderColor="#ad3d32"
             />
 
  
-       <Button x:Name="Informações" 
-            Text="Informações"
-            FontSize="18"
-            Clicked="QuandoClicarInf"
-            BackgroundColor="#b56a24"
-            HorizontalOptions="Fill"
-            Margin="10,0, 10, 150"
-            VerticalOptions="End" 
-            /> 
+       
 
-<Button x:Name="Sobre" 
-            Text="Sobre"
+      <Button x:Name="Jogar" 
+            Text="Jogar"
             FontSize="18"
-            Clicked="QuandoClicarInf"
+            FontFamily="GalleroVintage-DemoVersion-Regular"
+            Clicked="QuandoClicarJogar"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
             Margin="10,0, 10, 200"
             VerticalOptions="End"
+            CornerRadius="30"
+            BorderColor="#ad3d32"      
             />
-          
+      
+         <Frame x:Name="FrameSobre"
+                IsVisible="false"
+                Margin="10"
+                Opacity=".9"
+                BackgroundColor="Transparent"
+                CornerRadius="20"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill"
+                >
+     
+       <Grid>
+           <Grid.RowDefinitions>
+           <RowDefinition Height="90"/>
+           <RowDefinition Height="*"/>
+           <RowDefinition Height="60"/>
+           </Grid.RowDefinitions>
+       
+       <Label  Text="Sobre"
+               TextColor="Black"
+               Margin="20"
+               FontSize="40"              
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Grid.Row="0"
+                />
+
+       
+
+        <Label Text="Um Aplicativo Desenvolvido Com Muito Amor E Flatulências."
+                CharacterSpacing="1"
+                LineHeight="1.5"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                FontSize="20"/>
+      
+
+       <Button Text="Voltar"
+                Clicked="ButtonVoltar"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#ffbc00"
+                Margin="0,0,0,10"
+                FontSize="18"
+                Grid.Row="2"/>  
+       
+           </Grid>
+         </Frame>
+      
  
      </Grid>
 </ContentPage>
