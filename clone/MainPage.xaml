@@ -28,7 +28,7 @@
             Clicked="QuandoClicarFrameSobre"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
-            Margin="10, 0, 10, 100"
+            Margin="10, 0, 10, 90"
             VerticalOptions="End" 
             CornerRadius="30"
             BorderColor="#ad3d32"
