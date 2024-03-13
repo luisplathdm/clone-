@@ -21,34 +21,26 @@
             HorizontalTextAlignment="Center"
             />
 
-  <Button x:Name="Jogar" 
-            Text="Jogar"
-            FontSize="18"
-            Clicked="QuandoClicarJogar"
+  <Button x:Name="Sobre" 
+            Text="Sobre"
+           FontFamily="Snowy Season.ttf"
+            FontSize="28"
+            Clicked="QuandoClicarSobre"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
-            Margin="10, 0, 10, 100"
+            Margin="10, 0, 10, 90"
             VerticalOptions="End" 
             />
 
- 
-       <Button x:Name="Informações" 
-            Text="Informações"
-            FontSize="18"
-            Clicked="QuandoClicarInf"
-            BackgroundColor="#b56a24"
-            HorizontalOptions="Fill"
-            Margin="10,0, 10, 150"
-            VerticalOptions="End" 
-            /> 
 
-<Button x:Name="Sobre" 
-            Text="Sobre"
-            FontSize="18"
-            Clicked="QuandoClicarInf"
+<Button x:Name="Jogar" 
+            Text="Jogar"
+             FontFamily="Snowy Season.ttf"
+            FontSize="28"
+            Clicked="QuandoClicarJogar"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
-            Margin="10,0, 10, 200"
+            Margin="10,0, 10, 160"
             VerticalOptions="End"
             />
           
