@@ -1,3 +1,5 @@
+using Microsoft.Maui.Controls;
+
 namespace clone;
 
 public partial class SegundaPage : ContentPage
@@ -8,5 +10,11 @@ public partial class SegundaPage : ContentPage
 		InitializeComponent();
 	}
 
+ 
+ 		private void QuandoClicarContinuar(object sender, EventArgs args)
+	  {
+	    Application.Current.MainPage = new TerceiraPage();
+	  }
+   
 }
 
