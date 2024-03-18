@@ -3,17 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="clone.TerceiraPage"
               Shell.NavBarIsVisible="false"
-              BackgroundColor="#783c07"
-              >
-              
-          <Grid>
-      <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>
-            </Grid.RowDefinitions>
+              BackgroundColor="#783c07" >
     
             <Frame 
                   BackgroundColor="#ffe291" 
@@ -21,37 +11,55 @@
                   Margin="5,10,5,0"
                   VerticalOptions="Fill"
                   Grid.Row="0">
+
+      <Grid>
+         <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+             <Image  
+              Source="escolha.png"
+              Aspect="AspectFill"
+              Grid.Row="0"
+            />
+            
             
             <Label   
                   x:Name="labelText"
+                  Text="Escolha Sabidamente"
                   TextColor="Black"
                   LineHeight="1.2"
                   HorizontalOptions="Center"
                   VerticalOptions="Start"
                   FontSize="20"
                   />
-            </Frame>
         
 
            <Button 
            HeightRequest="50"
            CornerRadius="20"
-           BackgroundColor="#b56a24"
-           FontSize="20"
-           Grid.Row="1"
-           />
-           
-          <Button 
-           HeightRequest="50"
-           CornerRadius="20"
+           Text="Mascara"
            BackgroundColor="#b56a24"
            FontSize="20"
            Grid.Row="2"
            />
+           
+          <Button 
+           HeightRequest="50"
+           Clicked="QuandoClicarGarrafa"
+           Text="Garrafa"
+           CornerRadius="20"
+           BackgroundColor="#b56a24"
+           FontSize="20"
+           Grid.Row="3"
+           />
 
-           </Grid>
+      </Grid>
            
-           
+        </Frame>   
            
           
     </ContentPage> 

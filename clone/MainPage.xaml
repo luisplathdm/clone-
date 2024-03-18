@@ -28,7 +28,7 @@
             Clicked="QuandoClicarFrameSobre"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
-            Margin="10, 0, 10, 90"
+            Margin="10, 0, 10, 50"
             VerticalOptions="End" 
             CornerRadius="30"
             BorderColor="#ad3d32"
@@ -44,7 +44,7 @@
             Clicked="QuandoClicarJogar"
             BackgroundColor="#b56a24"
             HorizontalOptions="Fill"
-            Margin="10,0, 10, 160"
+            Margin="10,0, 10, 100"
             VerticalOptions="End"
             CornerRadius="30"
             BorderColor="#ad3d32"      
@@ -78,7 +78,7 @@
 
        
 
-        <Label Text="Um Aplicativo Desenvolvido Com Muito Amor E Flatulências."
+        <Label Text="Um Aplicativo desenvolvido por Ana Andrade e Luis Plath na aula de Desenvolvimento de Sistemas Aplicada Pelo Melhor e Mais Bonito Professor Thiago Macedo no Colegio Sesi Apucarana."
                 CharacterSpacing="1"
                 LineHeight="1.5"
                 TextColor="White"

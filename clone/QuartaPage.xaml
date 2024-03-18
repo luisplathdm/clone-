@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
   <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="clone.SegundaPage"
+             x:Class="clone.QuartaPage"
               Shell.NavBarIsVisible="false"
               BackgroundColor="#783c07"
               >
@@ -23,27 +23,25 @@
                   Grid.Row="0">
             
             <Label   
-                  x:Name="labelTexto"
-                  Text="Você Avistou um Galpão Abandonado, e  Decide Explorar-lo, lá Você Encontra uma Garrafa e Uma Mascara Enquanto Ouve Passos se Aproximando "
+                  x:Name="labelText"
                   TextColor="Black"
                   LineHeight="1.2"
                   HorizontalOptions="Center"
-                  VerticalOptions="Center"
+                  VerticalOptions="Start"
                   FontSize="20"
                   />
             </Frame>
         
 
-           <Button 
-           Text="Continuar"
-           HeightRequest="60"
-           Clicked="QuandoClicarContinuar"
-           CornerRadius="30"
+          <Button 
+           Text="Recomeçar"
+           Clicked="QuandoClicarRecomecar"
+           HeightRequest="50"
+           CornerRadius="20"
            BackgroundColor="#b56a24"
            FontSize="20"
-           Grid.Row="2"
+           Grid.Row="1"
            />
-           
 
            </Grid>
            
