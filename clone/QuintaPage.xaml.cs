@@ -7,6 +7,9 @@ public partial class QuintaPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
+private void QuandoClicarDedo(object sender, EventArgs args)
+	  {
+	    Application.Current.MainPage = new FinalPage();
+	  }
 }
 

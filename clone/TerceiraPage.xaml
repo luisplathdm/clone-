@@ -41,6 +41,7 @@
            <Button 
            HeightRequest="50"
            CornerRadius="20"
+           Clicked="QuandoClicarMascara"
            Text="Mascara"
            BackgroundColor="#b56a24"
            FontSize="20"

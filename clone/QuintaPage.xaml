@@ -6,7 +6,7 @@
               BackgroundColor="#783c07"
               >
               
-          <Grid>
+ <Grid>
       <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="60"/>
@@ -15,42 +15,39 @@
             <RowDefinition Height="60"/>
             </Grid.RowDefinitions>
     
-            <Frame 
+           <Frame  
                   BackgroundColor="#ffe291" 
                   CornerRadius="30"
                   Margin="5,10,5,0"
-                  VerticalOptions="Fill"
-                  Grid.Row="0">
+                  VerticalOptions="Fill">
             
-            <Label   
-                  x:Name="labelText"
+                 
+                        
+                  <Label   
+                  x:Name="Texto"
+                  Text="um zumbi invade o galpão você rapidamente coloca a mascara, na tentativa de fugir o zumbi morde e arranca se dedo, ainda sim sua fuga é concluida   "
                   TextColor="Black"
                   LineHeight="1.2"
                   HorizontalOptions="Center"
-                  VerticalOptions="Start"
-                  FontSize="20"
-                  />
-            </Frame>
-        
+                  VerticalOptions="Center"
+                  FontSize="20"/>
+            
+         </Frame>
 
-           <Button 
-           HeightRequest="50"
-           CornerRadius="20"
-           BackgroundColor="#b56a24"
-           FontSize="20"
-           Grid.Row="1"
-           />
-           
-          <Button 
-           HeightRequest="50"
-           CornerRadius="20"
-           BackgroundColor="#b56a24"
-           FontSize="20"
-           Grid.Row="2"
-           />
+                  <Button x:Name="Dedo"
+                  FontFamily="GalleroVintage-DemoVersion-Regular" 
+                  Text="Continuar"
+                  Clicked="QuandoClicarDedo"
+                  HeightRequest="60"
+                  CornerRadius="30"
+                  BackgroundColor="#b56a24"
+                  FontSize="20"
+                  Grid.Row="2"/>
+                  
 
            </Grid>
-           
+    
+         
            
            
           

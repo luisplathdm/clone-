@@ -13,7 +13,7 @@
            />
 
         <Label 
-            FontFamily="Snowy_Season"
+            FontFamily="GalleroVintage-DemoVersion-Regular" 
             Text="pei-dei"
             TextColor="White"
             FontSize="45"
@@ -21,9 +21,9 @@
             HorizontalTextAlignment="Center"
             />
        
-       <Button x:Name="Informações"
+       <Button x:Name="Sobre"
             FontFamily="GalleroVintage-DemoVersion-Regular" 
-            Text="Informações"
+            Text="Sobre"
             FontSize="18"
             Clicked="QuandoClicarFrameSobre"
             BackgroundColor="#b56a24"
@@ -69,6 +69,7 @@
        
        <Label  Text="Sobre"
                TextColor="White"
+               FontFamily="GalleroVintage-DemoVersion-Regular" 
                Margin="20"
                FontSize="40"              
                HorizontalOptions="Center"
@@ -90,6 +91,7 @@
       
 
        <Button Text="Voltar"
+                FontFamily="GalleroVintage-DemoVersion-Regular" 
                 Clicked="ButtonVoltar"
                 HeightRequest="50"
                 CornerRadius="25"

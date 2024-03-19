@@ -14,10 +14,7 @@ public partial class MainPage : ContentPage
 	Application.Current.MainPage = new SegundaPage();
 }
   
-    private void QuandoClicarInf(object sender, EventArgs args)
-{
-
-}
+    
     private void QuandoClicarFrameSobre(object sender, EventArgs args)
 			{
 			FrameSobre.IsVisible = true;
